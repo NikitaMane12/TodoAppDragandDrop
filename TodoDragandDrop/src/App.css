@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.list-container {
+  width: 18%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-item button {
+  margin-left: 10px;
+}
